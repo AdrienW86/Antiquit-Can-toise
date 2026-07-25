@@ -10,9 +10,9 @@ export default function New() {
       category: "Mobilier XVIIIe",
       title: "Commode d'Époque",
       description: "Marqueterie fine et bronzes dorés, entièrement restaurée dans notre atelier.",
-      image: "/meuble.avif", // Place ton image dans public/catalogue/
+      image: "/meuble.avif",
       price: "Prix sur demande",
-      href: "/catalogue/commode-xviiie",
+      href: "/catalogue/",
     },
     {
       id: "2",
@@ -21,7 +21,7 @@ export default function New() {
       description: "Scène classique restaurée, vendue avec son cadre d'origine doré à la feuille.",
       image: "/tableau.avif",
       price: "Prix sur demande",
-      href: "/catalogue/tableau-xviie",
+      href: "/catalogue/",
     },
     {
       id: "3",
@@ -30,7 +30,7 @@ export default function New() {
       description: "Épreuve ancienne authentifiée, patine d'origine conservée avec certificat.",
       image: "/sculpture.avif",
       price: "Prix sur demande",
-      href: "/catalogue/bronze-xixe",
+      href: "/catalogue/",
     },
   ];
 

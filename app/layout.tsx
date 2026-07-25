@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Restauration & Expertise d'Exception",
+  title: "Restauration et Expertise",
   description: "Catalogue exclusif, restauration sur-mesure et estimation de pièces de collection.",
 };
 
