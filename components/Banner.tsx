@@ -10,7 +10,7 @@ export default function Banner() {
       style={{ backgroundImage: "url('/banner.avif')" }}
     >
       {/* 1. OVERLAY SOMBRE (Indispensable pour la lisibilité du texte sur la photo) */}
-      <div className="absolute inset-0 bg-black/65 z-0" />
+      <div className="absolute inset-0 bg-black/45 z-0" />
 
       {/* 2. EFFET DE HALO DORÉ (Conservé pour garder la touche lumineuse) */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-amber-500/15 rounded-full blur-[120px] pointer-events-none z-0" />
