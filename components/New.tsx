@@ -7,8 +7,8 @@ export default function New() {
   const items = [
     {
       id: "1",
-      category: "Mobilier XVIIIe",
-      title: "Commode d'Époque",
+      category: "Ancien",
+      title: "Meuble Ancien",
       description: "Marqueterie fine et bronzes dorés, entièrement restaurée dans notre atelier.",
       image: "/meuble.avif",
       price: "Prix sur demande",
@@ -16,8 +16,8 @@ export default function New() {
     },
     {
       id: "2",
-      category: "Peinture d'Art",
-      title: "Huile sur Toile XVIIe",
+      category: "Moderne",
+      title: "Huile sur Toile Moderne",
       description: "Scène classique restaurée, vendue avec son cadre d'origine doré à la feuille.",
       image: "/tableau.avif",
       price: "Prix sur demande",
@@ -25,8 +25,8 @@ export default function New() {
     },
     {
       id: "3",
-      category: "Sculpture & Bronze",
-      title: "Bronze Patiné XIXe",
+      category: "Vintage",
+      title: "Sculpture Bronze",
       description: "Épreuve ancienne authentifiée, patine d'origine conservée avec certificat.",
       image: "/sculpture.avif",
       price: "Prix sur demande",

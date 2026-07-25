@@ -54,7 +54,7 @@ export default function CataloguePage() {
       category: "tableaux",
       image: "/tableau.avif",
       description: "Scène classique restaurée en atelier avec son cadre d'origine.",
-      period: "XVIIe Siècle",
+      period: "Vintage",
     },
     {
       id: "2",
@@ -62,7 +62,7 @@ export default function CataloguePage() {
       category: "tableaux",
       image: "/tableau2.avif",
       description: "Scène classique restaurée en atelier avec son cadre d'origine.",
-      period: "XVIIe Siècle",
+      period: "Vintage",
     },
     {
       id: "3",
@@ -70,7 +70,7 @@ export default function CataloguePage() {
       category: "tableaux",
       image: "/tableaux.avif",
       description: "Scène classique restaurée en atelier avec son cadre d'origine.",
-      period: "XVIIe Siècle",
+      period: "Ancien",
     },
     {
       id: "4",
@@ -78,7 +78,7 @@ export default function CataloguePage() {
       category: "meubles",
       image: "/commode.avif",
       description: "commode fine et bronzes dorés, conservation d'exception.",
-      period: "XVIIIe Siècle",
+      period: "Ancien",
     },
     {
       id: "5",
@@ -86,7 +86,7 @@ export default function CataloguePage() {
       category: "meubles",
       image: "/buffet.avif",
       description: "Buffet élégant en bois.",
-      period: "XVIIIe Siècle",
+      period: "Ancien",
     },
     {
       id: "6",
@@ -94,7 +94,7 @@ export default function CataloguePage() {
       category: "meubles",
       image: "/moderne.avif",
       description: "Commande aux motifs vif.",
-      period: "XVIIIe Siècle",
+      period: "Moderne",
     },
     {
       id: "7",
@@ -102,7 +102,7 @@ export default function CataloguePage() {
       category: "meubles",
       image: "/fauteuil.avif",
       description: "Fauteuil en cuir haute qualité.",
-      period: "XVIIIe Siècle",
+      period: "Moderne",
     },
     {
       id: "8",
@@ -110,7 +110,7 @@ export default function CataloguePage() {
       category: "meubles",
       image: "/meuble2.avif",
       description: "table d'appoint avec plateau en marbre.",
-      period: "XVIIIe Siècle",
+      period: "Vintage",
     },
     {
       id: "9",
@@ -118,7 +118,7 @@ export default function CataloguePage() {
       category: "objets-art",
       image: "/sculpture.avif",
       description: "Sculpture bronze.",
-      period: "XIXe Siècle",
+      period: "Vintage",
     },
     {
       id: "10",
@@ -126,7 +126,7 @@ export default function CataloguePage() {
       category: "objets-art",
       image: "/sculpture2.avif",
       description: "Sculpture bronze femme.",
-      period: "XIXe Siècle",
+      period: "Vintage",
     },
     {
       id: "11",
@@ -134,7 +134,7 @@ export default function CataloguePage() {
       category: "objets-art",
       image: "/cheval.avif",
       description: "Épreuve ancienne authentifiée, patine d'origine.",
-      period: "XIXe Siècle",
+      period: "Moderne",
     },
     {
       id: "12",
@@ -142,7 +142,7 @@ export default function CataloguePage() {
       category: "objets-art",
       image: "/ange.avif",
       description: "Statut d'un ange argenté.",
-      period: "XIXe Siècle",
+      period: "Moderne",
     },
     {
       id: "13",
@@ -150,7 +150,7 @@ export default function CataloguePage() {
       category: "tapisseries",
       image: "/catalogue/tapisserie.avif",
       description: "Tissage ancien conservé, couleurs d'origine d'une grande fraîcheur.",
-      period: "XVIIIe Siècle",
+      period: "Moderne",
     },
   
     {
@@ -159,7 +159,7 @@ export default function CataloguePage() {
       category: "monnaies",
       image: "/deco.avif",
       description: "Eléments décoratifs élégants.",
-      period: "Pièce Ancienne",
+      period: "Ancien",
     },
     {
       id: "15",
@@ -167,7 +167,7 @@ export default function CataloguePage() {
       category: "monnaies",
       image: "/vaisselle.avif",
       description: "Différents éléments de vaisselle élégants.",
-      period: "Pièce Ancienne",
+      period: "Ancien",
     },
     {
       id: "16",
@@ -175,7 +175,15 @@ export default function CataloguePage() {
       category: "monnaies",
       image: "/vitrine.avif",
       description: "Différents éléments de décorations élégants.",
-      period: "Pièce Ancienne",
+      period: "Ancien",
+    },
+    {
+      id: "17",
+      title: "Meuble Ancien ",
+      category: "meubles",
+      image: "/meuble.avif",
+      description: "table d'appoint avec plateau en marbre.",
+      period: "Ancien",
     },
   ];
 
