@@ -17,7 +17,7 @@ export default function CataloguePage() {
   const categories = [
     {
       id: "tableaux",
-      title: "Tableaux & Peintures",
+      title: "Tableaux et Peintures",
       icon: Paintbrush,
       description: "Peintures modernes et classiques pour sublimer vos intérieurs.",
       tag: "Classique & Moderne",
@@ -39,7 +39,7 @@ export default function CataloguePage() {
     
     {
       id: "monnaies",
-      title: "Monnaies de Collection",
+      title: "Monnaies et Collection",
       icon: Coins,
       description: "Pièces de collection et numismatique rare.",
       tag: "Numismatique",
@@ -184,6 +184,22 @@ export default function CataloguePage() {
       image: "/meuble.avif",
       description: "table d'appoint avec plateau en marbre.",
       period: "Ancien",
+    },
+    {
+      id: "18",
+      title: "Scaphandre ",
+      category: "objets-art",
+      image: "/scaphandre.jpg",
+      description: "oeuvre d'art original.",
+      period: "Ancien",
+    },
+    {
+      id: "19",
+      title: "Montre cartier ",
+      category: "monnaies",
+      image: "/montre.jpg",
+      description: "montre de créateur avec finitions de très haute qualité.",
+      period: "Moderne",
     },
   ];
 
