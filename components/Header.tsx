@@ -13,6 +13,7 @@ export default function Header() {
     { name: "Catalogue", href: "/catalogue" },
     { name: "Restaurations", href: "/restaurations" },
     { name: "Estimations", href: "/estimations" },
+    { name: "L'entreprise", href: "/a-propos" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -34,7 +35,7 @@ export default function Header() {
           </Link>
 
           {/* --- NAVIGATION DESKTOP --- */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
