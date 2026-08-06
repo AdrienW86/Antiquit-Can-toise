@@ -195,7 +195,7 @@ export default function CataloguePage() {
     },
     {
       id: "19",
-      title: "Montre cartier ",
+      title: "Montre Cartier ",
       category: "monnaies",
       image: "/montre.jpg",
       description: "montre de créateur avec finitions de très haute qualité.",

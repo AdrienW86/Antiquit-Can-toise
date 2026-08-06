@@ -23,7 +23,7 @@ export default function Home() {
           </h2>
 
           <p className="text-lg sm:text-xl text-neutral-300 font-light leading-relaxed max-w-3xl mx-auto">
-            Nous sommes des experts passionnés par le domaine de l&apos;art et des antiquités. Notre amour pour les biens d&apos;exception nous permet de vous offrir un accompagnement sur-mesure dans l&apos;achat, la restauration et l&apos;estimation de vos plus belles pièces.
+            Nous sommes des experts passionnés par le domaine de l'art et des antiquités. Notre amour pour les biens d'exception nous permet de vous offrir un accompagnement sur-mesure dans l'achat, la restauration et l'estimation de vos plus belles pièces.
           </p>
 
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
               Nos <span className="text-amber-400">Prestations</span>
             </h2>
             <p className="text-neutral-400 max-w-2xl mx-auto">
-              Une gamme complète de services pour répondre à l&apos;ensemble de vos besoins en matière d&apos;art et de mobilier ancien.
+              Une gamme complète de services pour répondre à l'ensemble de vos besoins en matière d'art et de mobilier ancien.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3">Nos Produits</h3>
                 <p className="text-neutral-400 text-sm leading-relaxed mb-6">
-                  Une sélection exceptionnelle d&apos;œuvres d&apos;art et de mobilier ancien à vendre. Nos experts sauront vous guider dans vos choix d&apos;acquisition.
+                  Une sélection exceptionnelle d'œuvres d'art et de mobilier ancien à vendre. Nos experts sauront vous guider dans vos choix d'acquisition.
                 </p>
               </div>
               <Link
@@ -87,7 +87,7 @@ export default function Home() {
                 href="restaurations"
                 className="inline-flex items-center gap-2 text-amber-400 font-semibold hover:text-amber-300 transition-colors text-sm uppercase tracking-wider"
               >
-                <span>Voir l&apos;atelier</span>
+                <span>Voir l'atelier</span>
                 <ArrowRight size={16} />
               </Link>
             </div>
@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3">Nos Estimations</h3>
                 <p className="text-neutral-400 text-sm leading-relaxed mb-6">
-                  Faites évaluer vos biens d&apos;art et recevez une expertise précise, rigoureuse et basée sur les cours actuels du marché.
+                  Faites évaluer vos biens d'art et recevez une expertise précise, rigoureuse et basée sur les cours actuels du marché.
                 </p>
               </div>
               <Link

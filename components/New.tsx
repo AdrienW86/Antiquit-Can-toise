@@ -32,6 +32,24 @@ export default function New() {
       price: "Prix sur demande",
       href: "/catalogue/",
     },
+    {
+      id: "4",
+      title: "Scaphandre ",
+      category: "objets-art",
+      image: "/scaphandre.jpg",
+      description: "oeuvre d'art original.",
+      price: "Prix sur demande",
+      href: "/catalogue/",
+    },
+    {
+      id: "5",
+      title: "Montre Cartier ",
+      category: "monnaies",
+      image: "/montre.jpg",
+      description: "montre de créateur avec finitions de très haute qualité.",
+       price: "Prix sur demande",
+      href: "/catalogue/",
+    },
   ];
 
   return (
