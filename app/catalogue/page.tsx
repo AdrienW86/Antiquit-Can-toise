@@ -77,7 +77,7 @@ export default function CataloguePage() {
       title: "Commode d'Époque ",
       category: "meubles",
       image: "/commode.avif",
-      description: "commode fine et bronzes dorés, conservation d'exception.",
+      description: "Commode fine et bronzes dorés, conservation d'exception.",
       period: "Ancien",
     },
     {
@@ -109,7 +109,7 @@ export default function CataloguePage() {
       title: "Table d'appoint ",
       category: "meubles",
       image: "/meuble2.avif",
-      description: "table d'appoint avec plateau en marbre.",
+      description: "Table d'appoint avec plateau en marbre.",
       period: "Vintage",
     },
     {
@@ -182,7 +182,7 @@ export default function CataloguePage() {
       title: "Meuble Ancien ",
       category: "meubles",
       image: "/meuble.avif",
-      description: "table d'appoint avec plateau en marbre.",
+      description: "Table d'appoint avec plateau en marbre.",
       period: "Ancien",
     },
     {
@@ -190,7 +190,7 @@ export default function CataloguePage() {
       title: "Scaphandre ",
       category: "objets-art",
       image: "/scaphandre.jpg",
-      description: "oeuvre d'art original.",
+      description: "Oeuvre d'art original.",
       period: "Ancien",
     },
     {
@@ -198,7 +198,7 @@ export default function CataloguePage() {
       title: "Montre Cartier ",
       category: "monnaies",
       image: "/montre.jpg",
-      description: "montre de créateur avec finitions de très haute qualité.",
+      description: "Montre de créateur avec finitions de très haute qualité.",
       period: "Moderne",
     },
   ];
