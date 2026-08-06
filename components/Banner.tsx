@@ -26,7 +26,7 @@ export default function Banner() {
 
         {/* Titre Principal avec dégradé doré */}
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight drop-shadow-md">
-          L'Art de la Restauration & <br />
+          L'Art de la Restauration et <br />
           <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-yellow-600 bg-clip-text text-transparent">
             de l'Expertise d'Exception
           </span>
