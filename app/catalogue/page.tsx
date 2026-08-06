@@ -1,19 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Sparkles, Paintbrush, Armchair, Gem, Coins, Scroll, ZoomIn } from "lucide-react";
+import { ArrowRight, Sparkles, Paintbrush, Armchair, Gem, Coins, Watch } from "lucide-react";
 
 // Types pour structurer chaque photo/objet
 export interface CatalogueItem {
   id: string;
   title: string;
-  category: "tableaux" | "meubles" | "objets-art" | "tapisseries" | "monnaies";
+  category: "tableaux" | "meubles" | "objets-art" | "tapisseries" | "monnaies" | "montres";
   image: string;
   description: string;
   period?: string;
 }
 
 export default function CataloguePage() {
-  // 1. Vos 5 grandes catégories
+  // 1. Vos 6 grandes catégories
   const categories = [
     {
       id: "tableaux",
@@ -36,13 +36,19 @@ export default function CataloguePage() {
       description: "Sculptures, bronzes et objets de collection rares.",
       tag: "Sculptures & Raretés",
     },
-    
     {
       id: "monnaies",
       title: "Monnaies et Collection",
       icon: Coins,
       description: "Pièces de collection et numismatique rare.",
       tag: "Numismatique",
+    },
+    {
+      id: "montres",
+      title: "Montres et Horlogerie",
+      icon: Watch,
+      description: "Garde-temps de luxe, horlogerie de collection et pièces vintage.",
+      tag: "Horlogerie de Prestige",
     },
   ];
 
@@ -152,7 +158,6 @@ export default function CataloguePage() {
       description: "Tissage ancien conservé, couleurs d'origine d'une grande fraîcheur.",
       period: "Moderne",
     },
-  
     {
       id: "14",
       title: "Eléments décoratifs élégants",
@@ -196,10 +201,50 @@ export default function CataloguePage() {
     {
       id: "19",
       title: "Montre Cartier ",
-      category: "monnaies",
+      category: "montres",
       image: "/montre.jpg",
       description: "Montre de créateur avec finitions de très haute qualité.",
       period: "Moderne",
+    },
+    {
+      id: "20",
+      title: "Montre Rolex ",
+      category: "montres",
+      image: "/rolex.jpg",
+      description: "Montre de créateur avec finitions de très haute qualité.",
+      period: "Moderne",
+    },
+     {
+      id: "21",
+      title: "Montre Jaeger-LeCoultre ",
+      category: "montres",
+      image: "/montre2.jpg",
+      description: "Montre de créateur avec finitions de très haute qualité.",
+      period: "Moderne",
+    },
+    {
+      id: "22",
+      title: "Ensemble de pièces anciennes",
+      category: "monnaies",
+      image: "/monnaie1.jpg",
+      description: "Différents pièces de monnaies de collection.",
+      period: "Ancien",
+    },
+    {
+      id: "23",
+      title: "Ensemble de pièces anciennes",
+      category: "monnaies",
+      image: "/monnaie2.jpg",
+      description: "Différents pièces de monnaies de collection.",
+      period: "Ancien",
+    },
+    {
+      id: "24",
+      title: "Ensemble de pièces anciennes",
+      category: "monnaies",
+      image: "/monnaie4.jpg",
+      description: "Différents pièces de monnaies de collection.",
+      period: "Ancien",
     },
   ];
 
@@ -220,11 +265,11 @@ export default function CataloguePage() {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg text-neutral-300 font-light leading-relaxed">
-          Explorez notre sélection d&apos;œuvres authentifiées, triées par spécialité et conservées avec le plus grand soin par nos experts.
+          Explorez notre sélection d'œuvres authentifiées, triées par spécialité et conservées avec le plus grand soin par nos experts.
         </p>
       </section>
 
-      {/* --- BLOCS DE NAVIGATEURS RAPIDES --- */}
+      {/* --- BLOCS DE NAVIGATEURS RAPIDES (Adapté à 5 colonnes / responsive) --- */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           {categories.map((cat) => {
