@@ -7,7 +7,7 @@ export default function Banner() {
   return (
     <section 
       className="relative pt-20 pb-32 overflow-hidden flex flex-col items-center justify-center min-h-[calc(100vh-80px)] bg-cover bg-center bg-no-repeat bg-fixed"
-      style={{ backgroundImage: "url('/banner.avif')" }}
+      style={{ backgroundImage: "url('/devanture.jpg')" }}
     >
       {/* 1. OVERLAY SOMBRE (Indispensable pour la lisibilité du texte sur la photo) */}
       <div className="absolute inset-0 bg-black/45 z-0" />
